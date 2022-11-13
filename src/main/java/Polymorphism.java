@@ -23,10 +23,10 @@ class ex2 extends ex1{
 public class Polymorphism {
 
     public static void main(String[] args) {
-        ex1 ex= new ex1();
-        ex2 ex2=  new ex2();
-        ex.show();
-        ex2.show();
+        ex1 e1= new ex1();
+        ex2 e2=  new ex2();
+        e1.show();
+        e2.show();
 
         ex1 e3= new ex2();
         e3.show();

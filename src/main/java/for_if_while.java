@@ -7,6 +7,10 @@ public class for_if_while {
         List<Integer> l= new ArrayList<>();
         l.add(1);
         l.add(2);
+        /**
+         * forEach (takes lamba ()->{})
+         *
+         */
         l.forEach((x)->{
             System.out.println(x);
         });

@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0696971-53ca-444a-bf1e-e22ae002bfa1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Keyword_Revise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polymorphism.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Try_Catch_example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection_revise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/for_if_while.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/jobScheulerSimilarToAirflow/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/jobScheulerSimilarToAirflow/Job.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/jobScheulerSimilarToAirflow/SchedulerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/jobScheulerSimilarToAirflow/SchedulerWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/prod_con/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/multithreading/prod_con/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Keyword_Revise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Keyword_Revise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polymorphism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Try_Catch_example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Try_Catch_example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/for_if_while.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/for_if_while.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/prod_con/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +48,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/neha/IdeaProjects/Quick_Revision_Java/src/main/java/multithreading",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Application.for_if_while">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/multithreading" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Driver">
+    <configuration name="Driver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="Quick_Revision_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.Driver" />
+      <option name="MAIN_CLASS_NAME" value="multithreading.prod_con.Driver" />
       <module name="Quick_Revision_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="multithreading.prod_con.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,6 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Keyword_Revise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Keyword_Revise" />
+      <module name="Quick_Revision_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polymorphism" />
       <module name="Quick_Revision_Java" />
@@ -86,27 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Try_Catch_example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Try_Catch_example" />
-      <module name="Quick_Revision_Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="for_if_while" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="for_if_while" />
-      <module name="Quick_Revision_Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.for_if_while" />
         <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.Driver (1)" />
         <item itemvalue="Application.Exceptions" />
-        <item itemvalue="Application.Try_Catch_example" />
         <item itemvalue="Application.Polymorphism" />
+        <item itemvalue="Application.Keyword_Revise" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +136,9 @@
       <workItem from="1666263519054" duration="20501000" />
       <workItem from="1666350296909" duration="598000" />
       <workItem from="1667030232734" duration="81000" />
-      <workItem from="1667030349967" duration="598000" />
+      <workItem from="1667030349967" duration="1338000" />
+      <workItem from="1667219261822" duration="1229000" />
+      <workItem from="1668347581771" duration="7577000" />
     </task>
     <servers />
   </component>
@@ -150,79 +160,109 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
           <line>20</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
           <line>23</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
           <line>25</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
           <line>48</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/Driver.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/Driver.java</url>
           <line>59</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/Driver.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/Driver.java</url>
           <line>61</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
           <line>46</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
           <line>58</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/Driver.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/Driver.java</url>
           <line>15</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/Driver.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/Driver.java</url>
           <line>16</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
           <line>50</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
           <line>51</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/Driver.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/Driver.java</url>
           <line>18</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/multithreading/MyBlockingQueue.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/Consumer.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/Producer.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/Producer.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/multithreading/prod_con/MyBlockingQueue.java</url>
           <line>45</line>
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
